@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q==8</title>
+</head>
+
+<body>
+
+    <script>
+        const numbers = [56, -34, -67, 23, -90];
+
+        let txt = "";
+        let ans = numbers.filter(myFunction);
+
+        function myFunction(value, index, array) {
+            return value < 0;
+        }
+
+        console.log("negative elements :" + ans);
+
+    </script>
+
+</body>
+
+</html>     
